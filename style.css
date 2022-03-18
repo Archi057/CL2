@@ -1,5 +1,5 @@
-table { border: 1px solid black;
-    /* border-collapse: collapse; */
+/* table { border: 1px solid black;
+    border-collapse: collapse;
     border-collapse: separate;
     border-spacing: 10px;
     background-color: aquamarine;
@@ -8,8 +8,8 @@ table { border: 1px solid black;
 }
 
 tr {
-    /* background-color: bisque;
-    background-image: url(https://thumbs.dreamstime.com/b/%D0%B7%D0%B0%D1%82%D0%B2%D0%B5%D1%80-%D0%B5%D1%82%D0%B0%D1%8F-%D0%B3%D0%BE%D1%80%D1%8F%D1%87%D0%B0%D1%8F-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D1%83%D1%80%D0%B0-%D0%B0%D0%B2%D1%8B-66587886.jpg); */
+    background-color: bisque;
+    background-image: url(https://thumbs.dreamstime.com/b/%D0%B7%D0%B0%D1%82%D0%B2%D0%B5%D1%80-%D0%B5%D1%82%D0%B0%D1%8F-%D0%B3%D0%BE%D1%80%D1%8F%D1%87%D0%B0%D1%8F-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D1%83%D1%80%D0%B0-%D0%B0%D0%B2%D1%8B-66587886.jpg);
 }
 
 th { border: 1px solid red;
@@ -31,5 +31,15 @@ td {
     text-align: right;
     vertical-align: bottom;
     background-color: antiquewhite;
-    color: black;
+} */
+
+table{
+    border-collapse: collapse;
+
+}
+
+td {
+    border: 1px solid black;
+    width: 50px;
+    height: 20px;
 }
